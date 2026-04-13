@@ -1,0 +1,13 @@
+<svg width="256" height="256" viewBox="0 0 200 200" role="img" xmlns="http://www.w3.org/2000/svg">
+  <title>Terminal favicon – SP 256×256</title>
+  <!-- background -->
+  <rect x="0" y="0" width="200" height="200" rx="24" fill="#0d0d0d"/>
+  <!-- scanline tint -->
+  <rect x="0" y="0" width="200" height="200" rx="24" fill="#00ff88" opacity="0.03"/>
+  <!-- prompt line -->
+  <text x="22" y="65" font-family="'Courier New', monospace" font-size="18" fill="#00ff88" opacity="0.5">~/sp $</text>
+  <!-- big initials -->
+  <text x="22" y="130" font-family="'Courier New', monospace" font-size="68" font-weight="700" fill="#00ff88">SP</text>
+  <!-- blinking cursor block -->
+  <rect x="22" y="143" width="18" height="22" fill="#00ff88" opacity="0.85"/>
+</svg>
