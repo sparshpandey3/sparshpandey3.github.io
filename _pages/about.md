@@ -2,10 +2,10 @@
 layout: about
 title: about
 permalink: /
-subtitle: Undergraduate Researcher in Software Engineering · <a href="LAB_URL">SAGE Lab</a>, UCF
+subtitle: Undergraduate Researcher in Software Engineering · <a href="LAB_URL">SAGE Lab @ UCF </a>
 
 profile:
-  align: left
+  align: right
   image: portrait.jpeg
   image_circular: false # crops the image to make it circular
 
