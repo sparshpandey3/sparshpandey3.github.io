@@ -1,14 +1,8 @@
-github_users:
-  - torvalds
-  - alshedivat
+# Add your GitHub username and repositories, then set nav: true in _pages/repositories.md.
+# github_users:
+#   - your-github-username
 
 repo_description_lines_max: 2
 
-github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+# github_repos:
+#   - your-github-username/your-repo
