@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: Undergraduate Researcher in Software Engineering · <a href="LAB_URL">SAGE Lab</a>, UCF
 
 profile:
   align: left
