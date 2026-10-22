@@ -8,7 +8,7 @@ layout: default
       {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
       <div class="profile-mobile d-sm-none">
         {%
-          include figure.liquid loading="eager" path=profile_image_path class="rounded-circle z-depth-1" sizes="72px" alt=page.profile.image
+          include figure.liquid loading="eager" path=profile_image_path class="rounded-circle z-depth-1" sizes="72px" width="72" height="72" alt=page.profile.image
           cache_bust=true
         %}
       </div>
