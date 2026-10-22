@@ -4,9 +4,17 @@
 
 @use "variables" as v;
 
-// Site-wide font (loaded via google_fonts in _config.yml); overrides MDB's Roboto
-body {
-  font-family: "Asap Sharp", sans-serif;
+// Homepage subtitle (under your name): a step up from body text
+.post-header .desc {
+  font-size: 1.2rem;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+  margin-bottom: 2.5rem; // gap between subtitle and bio/photo (default 1rem)
+}
+
+// Homepage section headings (News, etc.): extra gap above each section
+.about-section-title {
+  margin-top: 2.5rem;
 }
 
 p,
@@ -45,7 +53,7 @@ table.table a {
   color: var(--global-theme-color);
 
   &:hover {
-    color: var(--global-theme-color);
+    color: var(--global-hover-color);
     text-decoration: underline;
   }
 

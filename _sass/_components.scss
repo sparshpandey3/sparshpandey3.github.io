@@ -62,7 +62,6 @@ ul.task-list input[type="checkbox"] {
   .more-info {
     margin-bottom: 5px;
     margin-top: 5px;
-    font-family: monospace;
 
     p {
       display: inline-block;
@@ -260,16 +259,4 @@ ul.task-list input[type="checkbox"] {
 
 .d2h-diff-table {
   position: relative;
-}
-
-// About page: on tablet/desktop, keep bio and news in a column beside the
-// photo instead of wrapping underneath it
-@media (min-width: 576px) {
-  .about-main {
-    display: flow-root; // own column: content stays beside the float, not under it
-  }
-}
-
-.about-main ~ .social {
-  clear: both;
 }

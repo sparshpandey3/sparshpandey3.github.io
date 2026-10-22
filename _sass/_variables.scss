@@ -23,6 +23,7 @@ $light-purple-color: color.adjust($purple-color, $lightness: 25%);
 $pink-color: #f92080 !default;
 $pink-color-light: #ffdddd !default;
 $yellow-color: #efcc00 !default;
+$accent-color: #AE5264 !default;
 
 $grey-color: #828282 !default;
 $grey-color-light: color.adjust($grey-color, $lightness: 40%);
@@ -32,7 +33,7 @@ $grey-900: #212529;
 $white-color: #ffffff !default;
 $black-color: #000000 !default;
 $ivory-color: #fAf8f2 !default;
-
+$back-color-dark: #1D1919 !default;
 // Theme colors
 
 $code-bg-color-light: rgba($purple-color, 0.05);
