@@ -56,7 +56,8 @@ ul.task-list input[type="checkbox"] {
 // Profile
 
 .profile {
-  width: 100%;
+  width: 35%;
+  max-width: 130px;
 
   .more-info {
     margin-bottom: 5px;
@@ -81,6 +82,7 @@ ul.task-list input[type="checkbox"] {
 @media (min-width: 576px) {
   .profile {
     width: 22%;
+    max-width: none;
 
     .address {
       p {
@@ -258,4 +260,16 @@ ul.task-list input[type="checkbox"] {
 
 .d2h-diff-table {
   position: relative;
+}
+
+// About page: on tablet/desktop, keep bio and news in a column beside the
+// photo instead of wrapping underneath it
+@media (min-width: 576px) {
+  .about-main {
+    display: flow-root; // own column: content stays beside the float, not under it
+  }
+}
+
+.about-main ~ .social {
+  clear: both;
 }

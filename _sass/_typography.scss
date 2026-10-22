@@ -4,6 +4,11 @@
 
 @use "variables" as v;
 
+// Site-wide font (loaded via google_fonts in _config.yml); overrides MDB's Roboto
+body {
+  font-family: "Asap Sharp", sans-serif;
+}
+
 p,
 h1,
 h2,
