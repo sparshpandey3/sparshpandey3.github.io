@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Co-presented “Automated Program Repair for UI-centric Android Bugs: How Far are We?" at ISSTA 26!
+Co-presented “[Automated Program Repair for UI-centric Android Bugs: How Far are We?](https://dl.acm.org/doi/10.1145/3832272)" at ISSTA 26!

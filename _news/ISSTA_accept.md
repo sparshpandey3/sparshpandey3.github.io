@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-One second author paper “[Automated Program Repair for UI-centric Android Bugs: How Far are We?](10.1145/3832272)" was accepted to ISSTA-26!
+One second author paper “[Automated Program Repair for UI-centric Android Bugs: How Far are We?](https://dl.acm.org/doi/10.1145/3832272)" was accepted to ISSTA-26!

@@ -23,4 +23,4 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Hello! I am an undergraduate researcher...
+Welcome! I'm a prospective Ph.D. student applying to software engineering programs this Fall 2026! I started research Summer 2025 at [The Software Automation, Generation & Engineering (SAGE) Lab](https://sagelab.io) under [Dr. Kevin Moran](https://kpmoran.com). My main area of interest has been to study the effects of automated program repair tools on UI-centric bugs. I created a large portion of our dataset of Android UI bugs, [DroidFixBench](https://zenodo.org/records/21521940)
