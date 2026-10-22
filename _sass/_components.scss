@@ -260,3 +260,32 @@ ul.task-list input[type="checkbox"] {
 .d2h-diff-table {
   position: relative;
 }
+
+// About page header: on phones, a small round photo sits beside the name and
+// subtitle (.profile-mobile); on larger screens it's hidden and the regular
+// .profile photo shows in the article instead
+.about-header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 2.5rem; // gap between subtitle and bio/photo
+
+  .about-header-text {
+    min-width: 0;
+  }
+}
+
+.profile-mobile {
+  flex: 0 0 72px;
+
+  figure {
+    margin: 0;
+  }
+
+  img {
+    width: 72px;
+    height: 72px;
+    object-fit: cover; // crop the portrait to a square instead of squashing it
+    object-position: center 20%; // keep the face in frame
+  }
+}
