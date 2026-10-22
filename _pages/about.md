@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Undergraduate Researcher in Software Engineering · <a href="LAB_URL">SAGE Lab @ UCF </a>
+subtitle: Undergraduate Researcher in Software Engineering · <a href="https://sagelab.io">SAGE Lab @ UCF </a>
 
 profile:
   align: right
